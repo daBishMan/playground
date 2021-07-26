@@ -14,12 +14,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "MzRlNzU5MmItZmVkZS00MzVjLTkxMGItOTZhZTMzMGEyZWEwfHJlYWQtd3JpdGU=",
         "canTrackAnalytics": false,
         "showUsageWarnings": true
@@ -40,9 +35,7 @@
     },
     "client-app-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "client-app"
-      ]
+      "implicitDependencies": ["client-app"]
     }
   }
 }
